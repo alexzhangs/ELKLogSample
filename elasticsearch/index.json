@@ -1,0 +1,123 @@
+{
+  "mappings": {
+    "tomcat": {
+      "properties": {
+        "fingerprint": {
+          "type": "keyword"
+        },
+        "host": {
+          "type": "text"
+        },
+        "input_type": {
+          "type": "keyword"
+        },
+        "lang": {
+          "type": "keyword"
+        },
+        "level": {
+          "type": "keyword"
+        },
+        "msg": {
+          "type": "text"
+        },
+        "offset": {
+          "type": "long"
+        },
+        "pid": {
+          "type": "long"
+        },
+        "program": {
+          "type": "text"
+        },
+        "provider": {
+          "type": "keyword"
+        },
+        "role": {
+          "type": "keyword"
+        },
+        "source": {
+          "type": "text"
+        },
+        "tags": {
+          "type": "text"
+        },
+        "topic": {
+          "type": "keyword"
+        },
+        "ts": {
+          "type": "date"
+        },
+        "ts_string": {
+          "type": "text"
+        },
+        "type": {
+          "type": "keyword"
+        }
+      }
+    },
+    "nginx": {
+      "properties": {
+        "fingerprint": {
+          "type": "keyword"
+        },
+        "host": {
+          "type": "text"
+        },
+        "input_type": {
+          "type": "keyword"
+        },
+        "lang": {
+          "type": "keyword"
+        },
+        "ip": {
+          "type": "keyword"
+        },
+        "remote_user": {
+          "type": "keyword"
+        },
+        "ip_forward": {
+          "type": "keyword"
+        },
+        "request": {
+          "type": "text"
+        },
+        "offset": {
+          "type": "long"
+        },
+        "status": {
+          "type": "long"
+        },
+        "bytes": {
+          "type": "long"
+        },
+        "referer": {
+          "type": "text"
+        },
+        "agent": {
+          "type": "text"
+        },
+        "role": {
+          "type": "keyword"
+        },
+        "source": {
+          "type": "text"
+        },
+        "tags": {
+          "type": "text"
+        },
+        "topic": {
+          "type": "keyword"
+        },
+        "ts": {
+          "type": "date"
+        },
+        "ts_string": {
+          "type": "text"
+        },
+        "type": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

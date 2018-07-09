@@ -1,0 +1,15 @@
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /var/log/elklogsample/nginx/access.log*
+  exclude_files: ['\.gz$']
+  document_type: nginx
+  fields:
+    role: "WebServer"
+    lang: "C"
+    provider: "nginx"
+    topic: "nginx-access"
+  fields_under_root: true
+
+output.logstash:
+  hosts: ["<ELK_SERVER_INTERNAL_IP>:5045"]

@@ -1,0 +1,8 @@
+/var/log/elklogsample/*/*log {
+    create 0644 root root
+    daily
+    dateext
+    rotate 31
+    missingok
+    notifempty
+}

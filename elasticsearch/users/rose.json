@@ -1,0 +1,7 @@
+{
+  "username" : "rose",
+  "password" : "<PASSWORD>",
+  "full_name" : "Rose Morgan",
+  "email" : "rose@exampledomain.com",
+  "roles" : [ "logs-readonly", ]
+}

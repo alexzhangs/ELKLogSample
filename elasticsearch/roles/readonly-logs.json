@@ -1,0 +1,17 @@
+{
+  "cluster": [],
+  "run_as" : [],
+    "indices" : [
+    {
+      "names" : [ "logs" ],
+      "privileges" : [ "read","monitor","view_index_metadata" ]
+    },
+    {
+      "names" : [ ".kibana*" ],
+      "privileges" : [ "read","monitor","view_index_metadata" ]
+    }
+  ],
+  "metadata": {
+    "reserved": true
+  }
+}
