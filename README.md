@@ -1,4 +1,4 @@
-# ELKLogSample
+# aws-ec2-elk-log
 
 Elasticsearch, Logstash and Kibana(ELK) Log Sample Configuration and Tools.
 
@@ -81,7 +81,7 @@ Refer to https://github.com/alexzhangs/aws-ec2-kibana
 ## Installation
 
 ```
-git clone https://github.com/alexzhangs/ELKLogSample
+git clone https://github.com/alexzhangs/aws-ec2-elk-log
 ```
 
 About install.sh:
@@ -128,7 +128,7 @@ OPTIONS
 ### On source hosts of log
 
 ```
-sh ELKLogSample/install.sh -r -f /var/log/elklogsample
+sh aws-ec2-elk-log/install.sh -r -f /var/log/elklogsample
 ```
 
 ### On ELK host
@@ -136,6 +136,6 @@ sh ELKLogSample/install.sh -r -f /var/log/elklogsample
 Automatic installation on ELK host is not working by now, `-e` and `-k` were not implementated, so far only `-l` is available.
 
 ```
-sh ELKLogSample/install.sh -e -l -k
+sh aws-ec2-elk-log/install.sh -e -l -k
 ```
 
